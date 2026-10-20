@@ -148,7 +148,8 @@ tract's center point) to its closest supermarket and records the distance. Two p
 - **Centroids are not people.** A tract center can fall in a field. Population-weighted centers or smaller
   units give fairer distances.
 - **The modifiable areal unit problem (MAUP).** Results change when the same data is grouped into different
-  units (tracts versus block groups). Note it as a limitation; the [Spatial Autocorrelation](pysal.md) episode
+  units (tracts versus block groups). Note it as a limitation; the Data Analysis module's
+  [Spatial Autocorrelation](https://spatialturn.github.io/DataAnalysis/pysal.html) episode
   returns to it.
 - **Data currency.** OpenStreetMap stores open and close. Check the data against local knowledge.
 
