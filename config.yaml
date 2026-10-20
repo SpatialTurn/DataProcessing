@@ -15,33 +15,33 @@ carpentry: 'incubator'
 
 # Custom carpentry description
 # This will be used as the alt text for the logo
-# carpentry_description: "Custom Carpentry"
+carpentry_description: 'GIS Data Processing for Social Scientists'
 
 # Overall title for pages.
-title: 'Lesson Title' # FIXME
+title: 'GIS Data Processing for Social Scientists'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: ~ # FIXME
+created: '2026-10-20'
 
 # Comma-separated list of keywords for the lesson
-keywords: 'software, data, lesson, The Carpentries' # FIXME
+keywords: 'GIS, data processing, data cleaning, Census data, margin of error, geoprocessing, buffer, overlay, areal weighting, raster processing, zonal statistics, automation, QGIS Model Designer, batch processing, Python, QGIS, social science'
 
 # Life cycle stage of the lesson
 # refer to <https://docs.carpentries.org/resources/curriculum/lesson-life-cycle.html> for details
 # possible values: pre-alpha, alpha, beta, stable, retired
-life_cycle: 'pre-alpha' # FIXME
+life_cycle: 'alpha'
 
 # License of the lesson
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/carpentries/workbench-template-md' # FIXME
+source: 'https://github.com/SpatialTurn/DataProcessing'
 
 # Default branch of your lesson
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'team@carpentries.org' # FIXME
+contact: 'ilindsay@purdue.edu'
 
 # Navigation ------------------------------------------------
 #
@@ -68,15 +68,27 @@ contact: 'team@carpentries.org' # FIXME
 # Order of episodes in your lesson
 episodes: 
 - introduction.md
+- cleaning-python.md
+- cleaning-qgis.md
+- geoprocessing-python.md
+- geoprocessing-qgis.md
+- raster-python.md
+- raster-qgis.md
+- automating-python.md
+- automating-qgis.md
 
 # Information for Learners
 learners: 
+- setup.md
+- reference.md
 
 # Information for Instructors
 instructors: 
+- instructor-notes.md
 
 # Learner Profiles
 profiles: 
+- learner-profiles.md
 
 # Customisation ---------------------------------------------
 #
