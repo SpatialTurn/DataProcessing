@@ -1,84 +1,64 @@
-# The Carpentries Workbench Template Markdown Lesson
+# GIS Data Processing for Social Scientists
 
-This lesson is a template lesson that uses [The Carpentries Workbench][workbench]. 
+Source for the **Data Processing** module of
+[Enabling the Geospatial Turn in the Social Sciences](https://spatialturn.github.io/),
+published at <https://spatialturn.github.io/DataProcessing/>.
 
-## Note about lesson life cycle stage
-Although the `config.yaml` states the life cycle stage as pre-alpha, **the template is stable and ready to use**. The life cycle stage is preset to `"pre-alpha"` as this setting is appropriate for new lessons initialised using the template.
+The lesson is built with [The Carpentries Workbench](https://carpentries.github.io/sandpaper-docs/).
+The module was created in October 2026 (Step 9 of the rework): the Geoprocessing and Raster Analysis (now Raster
+Processing) episodes moved here from the [Data Analysis module](https://github.com/SpatialTurn/DataAnalysis), and
+the Introduction, Cleaning and Automating episodes are new.
 
-## Create a new repository from this template
+## Repository layout
 
-To use this template to start a new lesson repository, 
-make sure you're logged into Github.   
-Visit https://github.com/carpentries/workbench-template-md/generate
-and follow the instructions.
-Checking the 'Include all branches' option will save some time waiting for the first website build
-when your new repository is initialised.
+| Folder | Contents |
+|---|---|
+| `episodes/` | The nine lesson pages shown on the website, with their figures |
+| `notebooks/` | The nine Google Colab notebooks linked from the Python episodes (`01a` to `04b`) |
+| `data/` | Raw data read directly from GitHub into memory, and the QGIS model |
+| `learners/`, `instructors/` | Setup, glossary and instructor notes |
 
-If you have any questions, contact [@tobyhodges](https://github.com/tobyhodges)
+Notebooks open in Colab from
+`https://colab.research.google.com/github/SpatialTurn/DataProcessing/blob/main/notebooks/<name>.ipynb`
+and read data from `https://raw.githubusercontent.com/SpatialTurn/DataProcessing/main/data/<file>` (and from the Foundations and CaseStudies `data/` folders).
 
-## Configure a new lesson
+| Episode file | Topic | Notebooks |
+|---|---|---|
+| `introduction.md` | Introduction to Data Processing (theory) | none |
+| `cleaning-python.md`, `cleaning-qgis.md` | Cleaning and Preparing Data | `01a`, `01b` |
+| `geoprocessing-python.md`, `geoprocessing-qgis.md` | Geoprocessing | `02a` to `02c` |
+| `raster-python.md`, `raster-qgis.md` | Raster Processing | `03a`, `03b` |
+| `automating-python.md`, `automating-qgis.md` | Automating Repeated Steps | `04a`, `04b` |
 
-Follow the steps below to
-complete the initial configuration of a new lesson repository built from this template:
+## Data
 
-1. **Make sure GitHub Pages is activated:**
-   navigate to _Settings_,
-   select _Pages_ from the left sidebar,
-   and make sure that `gh-pages` is selected as the branch to build from.
-   If no `gh-pages` branch is available, check the _Actions_ tab to see if the first
-   website build workflows are still running.
-   If they're not running yet, you may need to manually enable them via the _Actions_ tab.
-   The branch should become available when those have completed.
-1. **Adjust the `config.yaml` file:**
-   this file contains global parameters for your lesson site.
-   Individual fields within the file are documented with comments (beginning with `#`)
-   At minimum, you should adjust all the fields marked 'FIXME':
-   - `title`
-   - `created`
-   - `keywords`
-   - `life_cycle` (the default, _pre-alpha_, is the appropriate for brand new lessons)
-   - `contact`
-1. **Annotate the repository** with site URL and topic tags:
-   navigate back to the repository landing page and
-   click on the gear wheel/cog icon (similar to ⚙️) 
-   at the top-right of the _About_ box.
-   Check the "Use your GitHub Pages website" option,
-   and [add some keywords and other annotations to describe your lesson](https://cdh.carpentries.org/the-carpentries-incubator.html#topic-tags)
-   in the _Topics_ field.
-   At minimum, these should include:
-   - `lesson`
-   - the life cycle of the lesson (e.g. `pre-alpha`)
-   - the human language the lesson is written in (e.g. `deutsch`)
-1. **Adjust the 
-   `CITATION.cff`, `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, and `LICENSE.md` files**
-   as appropriate for your project.
-   -  `CITATION.cff`:
-      this file contains information that people can use to cite your lesson,
-      for example if they publish their own work based on it.
-      You should [update the CFF][cff-sandpaper-docs] now to include information about your lesson,
-      and remember to return to it periodically, keeping it updated as your
-      author list grows and other details become available or need to change.
-      The [Citation File Format home page][cff-home] gives more information about the format,
-      and the [`cffinit` webtool][cffinit] can be used to create new and update existing CFF files.
-   -  `CODE_OF_CONDUCT.md`: 
-      if you are using this template for a project outside The Carpentries,
-      you should adjust this file to describe 
-      who should be contacted with Code of Conduct reports,
-      and how those reports will be handled.
-   -  `CONTRIBUTING.md`:
-      depending on the current state and maturity of your project,
-      the contents of the template Contributing Guide may not be appropriate.
-      You should adjust the file to help guide contributors on how best
-      to get involved and make an impact on your lesson.
-   -  `LICENSE.md`:
-      in line with the terms of the CC-BY license,
-      you should ensure that the copyright information 
-      provided in the license file is accurate for your project.
-1. **Update this README with 
-   [relevant information about your lesson](https://carpentries.github.io/lesson-development-training/collaborating-newcomers.html#readme)**
-   and delete this section.
+| File | Contents | Source |
+|---|---|---|
+| `acs_2024_tippecanoe_tracts_raw.csv` | ACS 2020-2024 5-year estimates for the 43 tracts of Tippecanoe County, exactly as the Census API returned them (`outputFormat=csv`) | U.S. Census Bureau API |
+| `acs_2024_indiana_tracts_raw.csv` | The same request for all 1,696 Indiana tracts | U.S. Census Bureau API |
+| `indiana_tracts_2024.geojson` | 1,693 Indiana census tracts, 2024 cartographic boundary file (1:500,000), EPSG:4269 | U.S. Census Bureau |
+| `ipeds_hd2023_indiana_raw.csv` | The 105 Indiana institutions in the IPEDS directory (HD2023), 19 of its 73 columns, values unchanged | U.S. Department of Education, NCES |
+| `osm_parks_tippecanoe_raw.geojson` | 80 OpenStreetMap features tagged `leisure=park` in Tippecanoe County, one per OSM object, geometry not repaired | OpenStreetMap contributors (ODbL), Overpass API, October 2026 |
+| `population_within_distance.model3` | The QGIS model built in the Automating episode | This module |
 
-[cff-home]: https://citation-file-format.github.io/
-[cff-sandpaper-docs]:  https://carpentries.github.io/sandpaper-docs/editing.html#making-your-lesson-citable
-[cffinit]: https://citation-file-format.github.io/cff-initializer-javascript/
-[workbench]: https://carpentries.github.io/sandpaper-docs/
+The raw files were written by QGIS (the only route to these services from the build computer), as recorded in
+`SpatialTurn_build_scripts/utils/step9/`. The episodes also read clean files from the Foundations module
+(`tippecanoe_tracts.geojson`, `tippecanoe_tracts_acs.geojson`, `tippecanoe_acs_2024.csv`, `tippecanoe_parks.geojson`,
+`indiana_counties.geojson`, the elevation and land cover rasters) and the Case Studies module
+(`grocery_stores.geojson`, `study_area.geojson`).
+
+## Figures and build scripts
+
+All in `SpatialTurn_build_scripts/`:
+
+- Notebooks: `notebook_builders/dp_cleaning.py` (`01a`, `01b`), `dp_geoprocessing.py` (`02a` to `02c`),
+  `dp_raster.py` (`03a`, `03b`), `dp_automating.py` (`04a`, `04b`).
+- `dp_pipeline.png`: `figure_builders/dp_figures.py`. `da_geoprocessing_ops.png` and `da_raster_ops.png`:
+  `da_geoprocessing_figures.py` and `da_raster_figures.py` (named before the move).
+- The `cl_qgis_*`, `au_qgis_*`, `gp_qgis_*` and `rs_qgis_*` screenshots were taken in QGIS 4.0 (light and dark UI)
+  through the QGIS MCP plugin; `gp_qgis_result.png` and `rs_qgis_result.png` are QGIS renders composed by
+  `gp_result_fig.py` and `rs_result_fig.py`.
+
+Every figure has a `-dark` copy for the site's dark mode.
+
+Contact: ilindsay@purdue.edu

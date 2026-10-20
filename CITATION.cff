@@ -1,11 +1,5 @@
-# This template CITATION.cff file was generated with cffinit.
-# Visit https://bit.ly/cffinit to replace its contents
-# with information about your lesson.
-# Remember to update this file periodically, 
-# ensuring that the author list and other fields remain accurate.
-
 cff-version: 1.2.0
-title: FIXME
+title: "GIS Data Processing for Social Scientists"
 message: >-
   Please cite this lesson using the information in this file
   when you refer to it in publications, and/or if you
@@ -13,10 +7,42 @@ message: >-
   training material.
 type: dataset
 authors:
-  - given-names: FIXME
-    family-names: FIXME
+  - given-names: Ian
+    family-names: Lindsay
+    affiliation: "Purdue University"
+  - given-names: Nicole
+    family-names: Kong
+    affiliation: "Purdue University"
+  - given-names: Innocensia
+    family-names: Owuor
+    affiliation: "Purdue University"
+  - given-names: Max
+    family-names: Gosch
+    affiliation: "Department of Anthropology, Purdue University"
+  - given-names: Aniket Dev
+    family-names: Roy
+    affiliation: "Purdue University Libraries and School of Information"
 abstract: >-
-  FIXME Replace this with a short abstract describing the
-  lesson, e.g. its target audience and main intended
-  learning objectives.
+  The Data Processing module of Enabling the Geospatial Turn in the Social
+  Sciences teaches the everyday work between collecting and analyzing
+  geospatial data: cleaning raw Census, IPEDS and OpenStreetMap data,
+  geoprocessing (buffers, overlays, distances and areal weighting), raster
+  processing (map algebra, reclassification and zonal statistics) and
+  automating repeated steps, each in Python (Google Colab) and in QGIS.
+keywords:
+  - GIS
+  - Python
+  - QGIS
+  - data processing
+  - data cleaning
+  - American Community Survey
+  - geoprocessing
+  - areal weighting
+  - raster processing
+  - zonal statistics
+  - automation
+  - social science
+repository-code: "https://github.com/SpatialTurn/DataProcessing"
+url: "https://spatialturn.github.io/DataProcessing/"
 license: CC-BY-4.0
+date-released: "2026-10-20"

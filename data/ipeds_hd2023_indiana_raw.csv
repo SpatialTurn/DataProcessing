@@ -1,0 +1,106 @@
+UNITID,INSTNM,ADDR,CITY,STABBR,ZIP,COUNTYCD,COUNTYNM,SECTOR,CONTROL,ICLEVEL,DEGGRANT,HLOFFER,INSTSIZE,C21BASIC,CLOSEDAT,WEBADDR,LONGITUD,LATITUDE
+143233,Bethany Theological Seminary,615 National Rd W,Richmond,IN,47374-4019,18177,Wayne County,2,2,1,1,7,1,24,-2        ,www.bethanyseminary.edu/,-84.910689,39.826244
+150066,Anderson University,1100 E 5th St,Anderson,IN,46012-3495,18095,Madison County,2,2,1,1,9,2,20,-2        ,https://anderson.edu/,-85.664315,40.112768
+150136,Ball State University,2000 W. University Ave,Muncie,IN,47306,18035,Delaware County,1,1,1,1,9,5,16,-2        ,https://www.bsu.edu/,-85.409043,40.203431
+150145,Bethel University,1001 Bethel Circle,Mishawaka,IN,46545-5591,18141,St. Joseph County,2,2,1,1,8,2,20,-2        ,https://betheluniversity.edu/,-86.194686,41.678399
+150163,Butler University,4600 Sunset Ave,Indianapolis,IN,46208,18097,Marion County,2,2,1,1,9,3,18,-2        ,www.butler.edu/,-86.172167,39.837400
+150172,Calumet College of Saint Joseph,2400 New York Ave,Whiting,IN,46394,18089,Lake County,2,2,1,1,7,1,20,-2        ,www.ccsj.edu/,-87.494123,41.671008
+150215,Christian Theological Seminary,1000 W 42nd St,Indianapolis,IN,46208-3301,18097,Marion County,2,2,1,1,9,1,24,-2        ,www.cts.edu/,-86.178551,39.832673
+150251,College of Court Reporting Inc,"455 West Lincolnway, Suite A",Valparaiso,IN,46385,18127,Porter County,6,3,2,1,3,1,13,-2        ,www.ccr.edu/,-87.066331,41.467574
+150288,Concordia Theological Seminary,6600 N Clinton St,Fort Wayne,IN,46825-4996,18003,Allen County,2,2,1,1,9,1,24,-2        ,https://ctsfw.edu/,-85.109940,41.139321
+150303,Tricoci University of Beauty Culture-Highland,2549 Highway Ave,Highland,IN,46322,18089,Lake County,9,3,3,2,2,1,-2,-2        ,www.tricociuniversity.edu/,-87.467018,41.555885
+150400,DePauw University,313 S Locust St,Greencastle,IN,46135-1772,18133,Putnam County,2,2,1,1,5,2,21,-2        ,www.depauw.edu/,-86.860363,39.640904
+150428,Don Roberts School of Hair Design,152 East US Route 30,Schererville,IN,46375,18089,Lake County,9,3,3,2,2,1,-2,-2        ,www.donrobertsspaschool.com/,-87.447089,41.485532
+150455,Earlham College,801 National Rd West,Richmond,IN,47374-4095,18177,Wayne County,2,2,1,1,7,1,21,-2        ,https://earlham.edu/,-84.915037,39.823431
+150534,University of Evansville,1800 Lincoln Avenue,Evansville,IN,47722,18163,Vanderburgh County,2,2,1,1,9,2,19,-2        ,https://www.evansville.edu/,-87.531644,37.971549
+150604,Franklin College,101 Branigin Blvd,Franklin,IN,46131-2623,18081,Johnson County,2,2,1,1,7,1,21,-2        ,www.franklincollege.edu/,-86.047182,39.478298
+150668,Goshen College,1700 S Main St,Goshen,IN,46526-4794,18039,Elkhart County,2,2,1,1,9,1,22,-2        ,www.goshen.edu/,-85.827795,41.563582
+150677,Grace College and Theological Seminary,1 Lancer Way,Winona Lake,IN,46590-1274,18085,Kosciusko County,2,2,1,1,9,2,19,-2        ,www.grace.edu/,-85.814228,41.225950
+150756,Hanover College,517 Ball Drive,Hanover,IN,47243,18077,Jefferson County,2,2,1,1,9,2,21,-2        ,www.hanover.edu/,-85.460051,38.715642
+150765,J Michael Harrold Beauty Academy,2232 Wabash Ave,Terre Haute,IN,47807,18167,Vigo County,9,3,3,2,2,1,-2,-2        ,harroldbeautyacademy.com/,-87.383391,39.470359
+150774,Holy Cross College,54515 State Road 933 North,Notre Dame,IN,46556-0308,18141,St. Joseph County,2,2,1,1,5,1,21,-2        ,www.hcc-nd.edu/,-86.253822,41.698996
+150853,PJ's College of Cosmetology-Clarksville,1414 Blackiston Mill Rd,Clarksville,IN,47129,18019,Clark County,9,3,3,2,2,1,-2,-2        ,www.gotopjs.com/,-85.768914,38.312100
+150941,Huntington University,2303 College Ave,Huntington,IN,46750,18069,Huntington County,2,2,1,1,9,2,20,-2        ,www.huntington.edu/,-85.497317,40.898152
+150987,Ivy Tech Community College,50 W. Fall Creek Parkway N. Drive,Indianapolis,IN,46208-5752,18097,Marion County,4,1,2,1,3,5,6,-2        ,www.ivytech.edu/,-86.158213,39.803753
+151102,Purdue University Fort Wayne,2101 E Coliseum Blvd,Fort Wayne,IN,46805-1499,18003,Allen County,1,1,1,1,8,3,19,-2        ,www.pfw.edu/,-85.108962,41.117278
+151111,Indiana University-Indianapolis,420 University Blvd,Indianapolis,IN,46202-5143,18097,Marion County,1,1,1,1,9,5,16,-2        ,https://indianapolis.iu.edu/,-86.172217,39.772948
+151263,University of Indianapolis,1400 E Hanna Ave,Indianapolis,IN,46227-3697,18097,Marion County,2,2,1,1,9,3,17,-2        ,https://uindy.edu/,-86.133969,39.709571
+151290,Indiana Institute of Technology,1600 E Washington Blvd,Fort Wayne,IN,46803-1228,18003,Allen County,2,2,1,1,9,2,18,-2        ,www.indianatech.edu/,-85.116479,41.078365
+151306,University of Southern Indiana,8600 University Blvd,Evansville,IN,47712,18163,Vanderburgh County,1,1,1,1,9,3,18,-2        ,www.usi.edu/,-87.677214,37.962374
+151324,Indiana State University,210 N 7th St,Terre Haute,IN,47809,18167,Vigo County,1,1,1,1,9,3,17,-2        ,https://www.indstate.edu/,-87.407846,39.469073
+151333,Indiana University-Kokomo,2300 S Washington St,Kokomo,IN,46902-9003,18067,Howard County,1,1,1,1,7,2,20,-2        ,www.iuk.edu/,-86.132048,40.460062
+151342,Indiana University-South Bend,1700 Mishawaka Ave,South Bend,IN,46615-7111,18141,St. Joseph County,1,1,1,1,8,2,19,-2        ,https://iusb.edu/,-86.221991,41.665324
+151351,Indiana University-Bloomington,107 South Indiana Ave.,Bloomington,IN,47405-7000,18105,Monroe County,1,1,1,1,9,5,15,-2        ,www.indiana.edu/,-86.526559,39.166090
+151360,Indiana University-Northwest,3400 Broadway,Gary,IN,46408-1197,18089,Lake County,1,1,1,1,7,2,20,-2        ,www.iun.edu/,-87.337249,41.557324
+151379,Indiana University-Southeast,4201 Grant Line Rd,New Albany,IN,47150,18043,Floyd County,1,1,1,1,7,2,19,-2        ,https://ius.edu/,-85.819985,38.345191
+151388,Indiana University-East,2325 Chester Blvd,Richmond,IN,47374-1289,18177,Wayne County,1,1,1,1,7,2,20,-2        ,www.iue.edu/,-84.881923,39.868707
+151467,International Business College-Indianapolis,7205 Shadeland Station,Indianapolis,IN,46256-3954,18097,Marion County,6,3,2,1,3,1,7,-2        ,www.ibcindianapolis.edu/,-86.041648,39.885628
+151564,Taylor Institute of Cosmetology II,320 E Culver Rd,Knox,IN,46534,18149,Starke County,9,3,3,2,2,1,-2,-2        ,www.kbc.edu/,-86.618158,41.287712
+151607,Tricoci University of Beauty Culture-Lafayette,833 Ferry Street,Lafayette,IN,47901,18157,Tippecanoe County,9,3,3,2,2,1,-2,-2        ,www.tricociuniversity.edu/,-86.887007,40.419818
+151661,Lincoln College of Technology-Indianapolis,7225 Winton Drive - Building 128,Indianapolis,IN,46268,18097,Marion County,6,3,2,1,4,2,11,-2        ,www.lincolntech.edu/campus/indianapolis-in,-86.246276,39.884503
+151777,Manchester University,604 E. College Ave,North Manchester,IN,46962,18169,Wabash County,2,2,1,1,9,2,20,-2        ,https://www.manchester.edu/,-85.762249,41.011540
+151786,Marian University,3200 Cold Spring Rd,Indianapolis,IN,46222-1997,18097,Marion County,2,2,1,1,9,2,17,-2        ,www.marian.edu/,-86.202643,39.813233
+151801,Indiana Wesleyan University-Marion,4201 South Washington Street,Marion,IN,46953-4974,18053,Grant County,2,2,1,1,9,2,20,-2        ,https://www.indwes.edu/,-85.667503,40.517937
+151810,Martin University,2186 North Sherman Drive,Indianapolis,IN,46218-0567,18097,Marion County,2,2,1,1,7,1,21,-2        ,www.martin.edu/,-86.103953,39.798144
+151865,Anabaptist Mennonite Biblical Seminary,3003 Benham Ave,Elkhart,IN,46517-1999,18039,Elkhart County,2,2,1,1,9,1,24,-2        ,www.ambs.edu/,-85.972165,41.656013
+151962,Mid-America College of Funeral Service,3111 Hamburg Pke,Jeffersonville,IN,47130,18019,Clark County,2,2,1,1,5,1,30,-2        ,www.mid-america.edu/,-85.744696,38.312090
+152080,University of Notre Dame,400 Main Building,Notre Dame,IN,46556,18141,St. Joseph County,2,2,1,1,9,4,15,-2        ,www.nd.edu/,-86.238959,41.703058
+152099,Oakland City University,138 N Lucretia St,Oakland City,IN,47660-1099,18051,Gibson County,2,2,1,1,9,1,17,-2        ,www.oak.edu/,-87.351440,38.340891
+152150,PJ's College of Cosmetology-Richmond,50 Hayes Arboretum Road,Richmond,IN,47374,18177,Wayne County,9,3,3,2,2,1,-2,-2        ,www.gotopjs.com/,-84.842601,39.832270
+152275,Ravenscroft Beauty College,4530 Lahmeyer Road,Fort Wayne,IN,46835,18003,Allen County,9,3,3,2,2,1,-2,-2        ,ravenscroftcollege.com/,-85.046078,41.121802
+152309,Rogers Academy of Hair Design,221 Main Street,Evansville,IN,47708,18163,Vanderburgh County,9,3,3,2,2,1,-2,-2        ,rogershair.com/,-87.572366,37.970675
+152318,Rose-Hulman Institute of Technology,5500 Wabash Avenue,Terre Haute,IN,47803-3920,18167,Vigo County,2,2,1,1,7,2,28,-2        ,https://www.rose-hulman.edu/,-87.326749,39.483602
+152336,University of Saint Francis-Fort Wayne,2701 Spring St,Fort Wayne,IN,46808-3994,18003,Allen County,2,2,1,1,9,2,19,-2        ,https://www.sf.edu/,-85.177246,41.087205
+152381,Saint Mary-of-the-Woods College,1 St Mary of Woods Coll,Saint Mary of the Woods,IN,47876-1099,18167,Vigo County,2,2,1,1,9,2,20,-2        ,www.smwc.edu/,-87.463791,39.508546
+152390,Saint Mary's College,133 Le Mans Hall,Notre Dame,IN,46556,18141,St. Joseph County,2,2,1,1,9,2,21,-2        ,https://www.saintmarys.edu/,-86.256947,41.707274
+152451,Saint Meinrad School of Theology,200 Hill Drive,St. Meinrad,IN,47577,18147,Spencer County,2,2,1,1,8,1,24,-2        ,https://www.saintmeinrad.edu/,-86.810388,38.165546
+152497,Saint Elizabeth School of Nursing,1501 Hartford Street,Lafayette,IN,47904-9988,18157,Tippecanoe County,5,2,2,2,4,1,-2,-2        ,https://www.steson.org/,-86.880830,40.427401
+152530,Taylor University,1846 Main Street,Upland,IN,46989-1001,18053,Grant County,2,2,1,1,7,2,22,-2        ,https://www.taylor.edu/,-85.497034,40.456246
+152567,Trine University,1 University Ave,Angola,IN,46703-1764,18151,Steuben County,2,2,1,1,9,2,22,-2        ,www.trine.edu/,-85.008009,41.632502
+152600,Valparaiso University,US Highway 30 and Sturdy Road,Valparaiso,IN,46383,18127,Porter County,2,2,1,1,9,2,17,-2        ,https://www.valpo.edu/,-87.040172,41.462239
+152628,Vincennes Beauty College,12 S Second St,Vincennes,IN,47591,18083,Knox County,9,3,3,2,2,1,-2,-2        ,vincennesbeautycollege.com/,-87.532410,38.679739
+152637,Vincennes University,1002 N First St,Vincennes,IN,47591,18083,Knox County,1,1,1,1,5,4,23,-2        ,https://www.vinu.edu/,-87.523407,38.686318
+152673,Wabash College,301 West Wabash Avenue,Crawfordsville,IN,47933-0352,18107,Montgomery County,2,2,1,1,5,1,21,-2        ,www.wabash.edu/,-86.906000,40.037588
+243780,Purdue University-Main Campus,Hovde Hall of Administration,West Lafayette,IN,47907-2040,18157,Tippecanoe County,1,1,1,1,9,5,15,-2        ,https://www.purdue.edu/,-86.914435,40.428206
+367088,Tricoci University of Beauty Culture LLC-Bloomington,1681 N. College Ave,Bloomington,IN,47404,18105,Monroe County,9,3,3,2,2,1,-2,-2        ,www.tricociuniversity.edu/,-86.536403,39.181606
+414869,Tricoci University of Beauty Culture-Indianapolis,9725 Crosspoint Commons,Indianapolis,IN,46256,18057,Hamilton County,9,3,3,2,2,1,-2,-2        ,www.tricociuniversity.edu/,-86.031130,39.928723
+414878,Trine University-Regional/Non-Traditional Campuses,1 University Avenue,Angola,IN,46703,18151,Steuben County,2,2,1,1,9,3,19,-2        ,trine.edu/online/index.aspx,-85.008009,41.632502
+437857,Rudae's School of Beauty Culture-Ft Wayne,5317 Coldwater Rd Coldwater Crossing,Fort Wayne,IN,46825-5444,18003,Allen County,9,3,3,2,2,1,-2,-2        ,www.rudaes.edu/,-85.139946,41.128125
+438735,Aviation Institute of Maintenance-Indianapolis,7251 W. McCarty St.,Indianapolis,IN,46241,18097,Marion County,6,3,2,1,4,1,-2,-2        ,https://aviationmaintenance.edu/campuses/indianapolis-in,-86.288273,39.753062
+449597,Ideal Beauty Academy,1401 Youngstown Dr,Jeffersonville,IN,47130,18019,Clark County,9,3,3,2,2,1,-2,-2        ,idealbeautyacademy.net/,-85.730456,38.288401
+449603,Denmark College,8101 Polo Club Dr,Merrillville,IN,46410,18089,Lake County,9,3,3,2,2,1,-2,-2        ,www.successbarberschool.com/,-87.357915,41.469921
+449889,American College of Education,"101 West Ohio Street, Suite 1200",Indianapolis,IN,46204,18097,Marion County,3,3,1,1,9,4,32,-2        ,www.ace.edu/,-86.160161,39.769750
+451228,MyComputerCareer at Indianapolis,"2601 Fortune Circle Dr E, Suite 100C",Indianapolis,IN,46241,18097,Marion County,6,3,2,1,3,2,-2,-2        ,www.mycomputercareer.edu/,-86.254780,39.729314
+456506,Ross Medical Education Center-Fort Wayne,"4122 Lima Road, Unit A5",Fort Wayne,IN,46805-1046,18003,Allen County,6,3,2,1,3,1,-2,-2        ,https://rosseducation.edu/,-85.144540,41.115114
+457226,Horizon University,7700 Indian Lake Road,Indianapolis,IN,46236-2622,18097,Marion County,2,2,1,1,7,1,24,-2        ,www.horizonuniversity.edu/,-85.986809,39.894654
+457563,Aveda Fredric's Institute-Indianapolis,2208 East 116th Street,Carmel,IN,46032,18057,Hamilton County,9,3,3,2,2,1,-2,-2        ,https://avedafi.edu/indianapolis/,-86.117678,39.959878
+457572,Summit Salon Academy,1944 East 53rd Street,Anderson,IN,46013,18095,Madison County,9,3,3,2,2,1,-2,-2        ,www.andersonsalonacademy.com/,-85.654184,40.063021
+458681,Fortis College-Indianapolis,9001 N Wesleyan Rd Ste 101,Indianapolis,IN,46268,18097,Marion County,6,3,2,1,3,1,10,-2        ,https://www.fortis.edu/,-86.223181,39.918400
+458858,Empire Beauty School-Speedway,5750 A Crawfordsville Rd,Speedway,IN,46224,18097,Marion County,9,3,3,2,2,1,-2,-2        ,www.empire.edu/,-86.261512,39.800550
+459392,The Salon Professional Academy-Evansville,5545 Vogel Rd,Evansville,IN,47715,18163,Vanderburgh County,9,3,3,2,2,1,-2,-2        ,www.tspaevansville.com/,-87.483521,37.987320
+460109,Ross Medical Education Center-Granger,445 E. University Drive,Granger,IN,46530-4479,18141,St. Joseph County,9,3,3,2,2,1,10,-2        ,https://rosseducation.edu/,-86.174277,41.717835
+461917,Paul Mitchell the School-Indianapolis,8751 US 31 Highway South,Indianapolis,IN,46227-6252,18097,Marion County,9,3,3,2,2,1,-2,-2        ,paulmitchell.edu/indianapolis,-86.127361,39.640007
+462017,Summit Salon Academy-Kokomo,1012 S Reed Rd,Kokomo,IN,46901-6248,18067,Howard County,9,3,3,2,2,1,-2,-2        ,kokomobeautyschool.com/,-86.106111,40.474971
+475574,Lil Lou's Beauty and Barber College,4853  Broadway Street,Gary,IN,46409-2404,18089,Lake County,9,3,3,2,2,1,-2,-2        ,www.lillousbeautyandbarbercollege.com/,-87.335811,41.530250
+475741,Chamberlain University-Indiana,"9100 Keystone Crossing, Suite 300",Indianapolis,IN,46240,18097,Marion County,3,3,1,1,5,1,26,-2        ,https://www.chamberlain.edu/,-86.111061,39.919160
+481863,Ross Medical Education Center-Kokomo,196 East Southway Blvd.,Kokomo,IN,46902-3650,18067,Howard County,9,3,3,2,2,1,-2,-2        ,https://rosseducation.edu/,-86.129996,40.444807
+482228,Veritas Baptist College,"208 Walnut Street, Suite 115",Lawrenceburg,IN,47025,18029,Dearborn County,2,2,1,1,9,1,24,-2        ,www.vbc.edu/,-84.848698,39.093747
+484109,Paul Mitchell the School-Merrillville,7990 Broadway,Merrillville,IN,46410-5540,18089,Lake County,9,3,3,2,2,1,-2,-2        ,paulmitchell.edu/merrillville,-87.336518,41.473680
+484349,Ross Medical Education Center-Evansville,227 N. Green River Road,Evansville,IN,47715-2405,18163,Vanderburgh County,9,3,3,2,2,1,-2,-2        ,https://rosseducation.edu/,-87.490569,37.978574
+486752,Ross Medical Education Center-Muncie,411 W. Riggin,Muncie,IN,47303-6413,18035,Delaware County,9,3,3,2,2,1,-2,-2        ,https://rosseducation.edu/,-85.390811,40.232380
+488129,Textures Institute of Cosmetology,8325 North Michigan Road,Indianapolis,IN,46268-3635,18097,Marion County,9,3,3,2,2,1,-2,-2        ,texturesinstitute.org/,-86.218117,39.906649
+488420,Indiana Wellness College,"10585 N. Meridian Street, Suite 102",Carmel,IN,46290,18057,Hamilton County,9,3,3,2,2,1,-2,-2        ,https://www.indianawellnesscollege.edu/,-86.156579,39.940821
+488439,Kenny's Academy of Barbering,2150 Lafayette Road,Indianapolis,IN,46222-2327,18097,Marion County,9,3,3,2,2,1,-2,-2        ,kennysacademy.com/,-86.207551,39.796440
+488679,Indiana Wesleyan University-National & Global,1900 West 50th Street,Marion,IN,46953,18053,Grant County,2,2,1,1,9,4,17,-2        ,https://www.indwes.edu/,-85.677641,40.510655
+488776,John Patrick University of Health and Applied Sciences,"100 East Wayne Street, Suite 140",South Bend,IN,46601-2352,18141,St. Joseph County,3,3,1,1,7,1,26,-2        ,https://jpu.edu/,-86.249730,41.673380
+488961,Ross Medical Education Center-Lafayette,2621 Maple Point Drive,Lafayette,IN,47905-5159,18157,Tippecanoe County,9,3,3,2,2,1,-2,-2        ,https://rosseducation.edu/,-86.845131,40.388490
+489779,Purdue University Global,"2550 Northwestern Avenue, Suite 1100",West Lafayette,IN,47906,18157,Tippecanoe County,1,1,1,1,9,5,17,-2        ,https://www.purdueglobal.edu/,-86.928449,40.456550
+490805,Purdue University Northwest,2200 169th Street,Hammond,IN,46323,18089,Lake County,1,1,1,1,9,3,18,-2        ,www.pnw.edu/,-87.474236,41.584324
+491525,Union Bible College,434 S. Union Street,Westfield,IN,46074-0900,18057,Hamilton County,2,2,1,1,5,1,24,-2        ,https://ubca.org/,-86.126025,40.038757
+491552,Christina and Company Education Center,220 Meijer Drive,Lafayette,IN,47905-4633,18157,Tippecanoe County,9,3,3,2,2,1,-2,-2        ,www.ccedcenter.com/,-86.815349,40.414052
+491941,Caris College,"2780 Jefferson Centre Way, Suite 103",Jeffersonville,IN,47130-8293,18019,Clark County,6,3,2,1,3,1,10,-2        ,www.cariscollege.edu/,-85.710165,38.326417
+492962,Indiana Institute of Technology-College of Professional Studies,1600 E. Washington Blvd.,Fort Wayne,IN,46803,18003,Allen County,2,2,1,1,5,2,22,-2        ,cps.indianatech.edu/,-85.116479,41.078365
+494029,Lil Lou's Beauty and Barber College-Hammond,5625 Hohman Avenue,Hammond,IN,46320-1954,18089,Lake County,9,3,3,2,2,1,-2,-2        ,www.lillousbeautyandbarbercollege.com/,-87.521717,41.611381
+497833,Marian University-Ancilla,20097 9B Road,Plymouth,IN,46563-9475,18099,Marshall County,2,2,1,1,5,1,-2,-2        ,https://www.marian.edu/ancilla,-86.445875,41.337931
+498951,Artisan Academy of Cosmetology,2440 Getz Road,Fort Wayne,IN,46804,18003,Allen County,6,3,2,2,4,1,-2,-2        ,https://art22academy.com/,-85.219935,41.062673
+499680,Stellar Career College-Crown Point,5521 Lincoln Highway Suite 301,Crown Point,IN,46307-1117,18089,Lake County,6,3,2,1,3,1,-2,-2        ,https://in.stellarcollege.edu/,-87.401656,41.474242
