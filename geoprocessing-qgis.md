@@ -162,11 +162,17 @@ Use **Layer > Add Layer > Add Vector Layer**, **Source Type: Protocol: HTTP(S), 
 HTTP/HTTPS/FTP** (in QGIS 4 the Type list starts with cloud services, so check it), as in the Foundations QGIS
 episode, and add these three addresses:
 
-| Layer | Web address |
+| Layer | File |
 |---|---|
-| Grocery stores | `https://raw.githubusercontent.com/SpatialTurn/CaseStudies/main/data/grocery_stores.geojson` |
-| City limits | `https://raw.githubusercontent.com/SpatialTurn/CaseStudies/main/data/study_area.geojson` |
-| Tracts with ACS data | `https://raw.githubusercontent.com/SpatialTurn/Foundations/main/data/tippecanoe_tracts_acs.geojson` |
+| Grocery stores | `grocery_stores.geojson` |
+| City limits | `study_area.geojson` |
+| Tracts with ACS data | `tippecanoe_tracts_acs.geojson` |
+
+Web addresses to copy:
+
+- **Grocery stores**: `https://raw.githubusercontent.com/SpatialTurn/CaseStudies/main/data/grocery_stores.geojson`
+- **City limits**: `https://raw.githubusercontent.com/SpatialTurn/CaseStudies/main/data/study_area.geojson`
+- **Tracts with ACS data**: `https://raw.githubusercontent.com/SpatialTurn/Foundations/main/data/tippecanoe_tracts_acs.geojson`
 
 The tracts layer already has the 2024 ACS columns joined (`total_pop`, `pop_under18`, `households`,
 `hh_no_vehicle` and others); the Foundations episode on tables shows how that join is done. Add an

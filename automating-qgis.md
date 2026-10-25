@@ -98,12 +98,19 @@ buffer and dissolve, clip, intersect and split the population by area.
 Add these four layers with **Layer > Add Layer > Add Vector Layer**, **Protocol: HTTP(S), cloud, etc.**,
 **Type: HTTP/HTTPS/FTP**:
 
-| Layer | Web address |
+| Layer | File |
 |---|---|
-| Grocery stores | `https://raw.githubusercontent.com/SpatialTurn/CaseStudies/main/data/grocery_stores.geojson` |
-| City limits | `https://raw.githubusercontent.com/SpatialTurn/CaseStudies/main/data/study_area.geojson` |
-| Tracts with ACS data | `https://raw.githubusercontent.com/SpatialTurn/Foundations/main/data/tippecanoe_tracts_acs.geojson` |
-| Parks | `https://raw.githubusercontent.com/SpatialTurn/Foundations/main/data/tippecanoe_parks.geojson` |
+| Grocery stores | `grocery_stores.geojson` |
+| City limits | `study_area.geojson` |
+| Tracts with ACS data | `tippecanoe_tracts_acs.geojson` |
+| Parks | `tippecanoe_parks.geojson` |
+
+Web addresses to copy:
+
+- **Grocery stores**: `https://raw.githubusercontent.com/SpatialTurn/CaseStudies/main/data/grocery_stores.geojson`
+- **City limits**: `https://raw.githubusercontent.com/SpatialTurn/CaseStudies/main/data/study_area.geojson`
+- **Tracts with ACS data**: `https://raw.githubusercontent.com/SpatialTurn/Foundations/main/data/tippecanoe_tracts_acs.geojson`
+- **Parks**: `https://raw.githubusercontent.com/SpatialTurn/Foundations/main/data/tippecanoe_parks.geojson`
 
 Then run **Extract by attribute** on `grocery_stores` (`store_type` `=` `Supermarket`) and rename the result
 `supermarkets` (17 points).
