@@ -377,7 +377,7 @@
       </div>
     </nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Geoprocessing in QGIS</h1>
-        <p>Last updated on 2026-10-20 |
+        <p>Last updated on 2026-10-25 |
 
         <a href="https://github.com/SpatialTurn/DataProcessing/edit/main/episodes/geoprocessing-qgis.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -632,15 +632,28 @@ tool by name.</p>
 <strong>Type: HTTP/HTTPS/FTP</strong> (in QGIS 4 the Type list starts
 with cloud services, so check it), as in the Foundations QGIS episode,
 and add these three addresses:</p>
-<table class="table"><colgroup><col width="50%"><col width="50%"></colgroup><thead><tr><th>Layer</th>
-<th>Web address</th>
+<table class="table"><thead><tr><th>Layer</th>
+<th>File</th>
 </tr></thead><tbody><tr><td>Grocery stores</td>
-<td><code>https://raw.githubusercontent.com/SpatialTurn/CaseStudies/main/data/grocery_stores.geojson</code></td>
+<td><code>grocery_stores.geojson</code></td>
 </tr><tr><td>City limits</td>
-<td><code>https://raw.githubusercontent.com/SpatialTurn/CaseStudies/main/data/study_area.geojson</code></td>
+<td><code>study_area.geojson</code></td>
 </tr><tr><td>Tracts with ACS data</td>
-<td><code>https://raw.githubusercontent.com/SpatialTurn/Foundations/main/data/tippecanoe_tracts_acs.geojson</code></td>
-</tr></tbody></table><p>The tracts layer already has the 2024 ACS columns joined
+<td><code>tippecanoe_tracts_acs.geojson</code></td>
+</tr></tbody></table><p>Web addresses to copy:</p>
+<ul><li>
+<strong>Grocery stores</strong>:
+<code>https://raw.githubusercontent.com/SpatialTurn/CaseStudies/main/data/grocery_stores.geojson</code>
+</li>
+<li>
+<strong>City limits</strong>:
+<code>https://raw.githubusercontent.com/SpatialTurn/CaseStudies/main/data/study_area.geojson</code>
+</li>
+<li>
+<strong>Tracts with ACS data</strong>:
+<code>https://raw.githubusercontent.com/SpatialTurn/Foundations/main/data/tippecanoe_tracts_acs.geojson</code>
+</li>
+</ul><p>The tracts layer already has the 2024 ACS columns joined
 (<code>total_pop</code>, <code>pop_under18</code>,
 <code>households</code>, <code>hh_no_vehicle</code> and others); the
 Foundations episode on tables shows how that join is done. Add an
@@ -874,7 +887,7 @@ is.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal"><li>
 <strong>Buffer</strong> the river by 500 m (reprojected first), with
@@ -913,7 +926,7 @@ supermarket in Lafayette?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>Buffer <code>supermarkets</code> by <code>805</code> m with
 <strong>Dissolve result</strong> ticked, then select
@@ -948,7 +961,7 @@ near the park? What would improve the estimate?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <p>It will <strong>overestimate</strong>: areal weighting puts half the
 residents in the buffered half, but few people live on the playing
@@ -1048,7 +1061,7 @@ Add reference-style links below as needed.
   "url": "https://SpatialTurn.github.io/DataProcessing/geoprocessing-qgis.html",
   "identifier": "https://SpatialTurn.github.io/DataProcessing/geoprocessing-qgis.html",
   "dateCreated": "2026-10-20",
-  "dateModified": "2026-10-20",
+  "dateModified": "2026-10-25",
   "datePublished": "2026-10-25"
 }
 

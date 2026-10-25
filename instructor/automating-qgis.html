@@ -373,7 +373,7 @@
       </div>
     </nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Automating Repeated Steps in QGIS</h1>
-        <p>Last updated on 2026-10-20 |
+        <p>Last updated on 2026-10-25 |
 
         <a href="https://github.com/SpatialTurn/DataProcessing/edit/main/episodes/automating-qgis.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -539,17 +539,34 @@ area.</p>
 <p>Add these four layers with <strong>Layer &gt; Add Layer &gt; Add
 Vector Layer</strong>, <strong>Protocol: HTTP(S), cloud, etc.</strong>,
 <strong>Type: HTTP/HTTPS/FTP</strong>:</p>
-<table class="table"><colgroup><col width="50%"><col width="50%"></colgroup><thead><tr><th>Layer</th>
-<th>Web address</th>
+<table class="table"><thead><tr><th>Layer</th>
+<th>File</th>
 </tr></thead><tbody><tr><td>Grocery stores</td>
-<td><code>https://raw.githubusercontent.com/SpatialTurn/CaseStudies/main/data/grocery_stores.geojson</code></td>
+<td><code>grocery_stores.geojson</code></td>
 </tr><tr><td>City limits</td>
-<td><code>https://raw.githubusercontent.com/SpatialTurn/CaseStudies/main/data/study_area.geojson</code></td>
+<td><code>study_area.geojson</code></td>
 </tr><tr><td>Tracts with ACS data</td>
-<td><code>https://raw.githubusercontent.com/SpatialTurn/Foundations/main/data/tippecanoe_tracts_acs.geojson</code></td>
+<td><code>tippecanoe_tracts_acs.geojson</code></td>
 </tr><tr><td>Parks</td>
-<td><code>https://raw.githubusercontent.com/SpatialTurn/Foundations/main/data/tippecanoe_parks.geojson</code></td>
-</tr></tbody></table><p>Then run <strong>Extract by attribute</strong> on
+<td><code>tippecanoe_parks.geojson</code></td>
+</tr></tbody></table><p>Web addresses to copy:</p>
+<ul><li>
+<strong>Grocery stores</strong>:
+<code>https://raw.githubusercontent.com/SpatialTurn/CaseStudies/main/data/grocery_stores.geojson</code>
+</li>
+<li>
+<strong>City limits</strong>:
+<code>https://raw.githubusercontent.com/SpatialTurn/CaseStudies/main/data/study_area.geojson</code>
+</li>
+<li>
+<strong>Tracts with ACS data</strong>:
+<code>https://raw.githubusercontent.com/SpatialTurn/Foundations/main/data/tippecanoe_tracts_acs.geojson</code>
+</li>
+<li>
+<strong>Parks</strong>:
+<code>https://raw.githubusercontent.com/SpatialTurn/Foundations/main/data/tippecanoe_parks.geojson</code>
+</li>
+</ul><p>Then run <strong>Extract by attribute</strong> on
 <code>grocery_stores</code> (<code>store_type</code> <code>=</code>
 <code>Supermarket</code>) and rename the result
 <code>supermarkets</code> (17 points).</p>
@@ -951,7 +968,7 @@ Add reference-style links below as needed.
   "url": "https://SpatialTurn.github.io/DataProcessing/instructor/automating-qgis.html",
   "identifier": "https://SpatialTurn.github.io/DataProcessing/instructor/automating-qgis.html",
   "dateCreated": "2026-10-20",
-  "dateModified": "2026-10-20",
+  "dateModified": "2026-10-25",
   "datePublished": "2026-10-25"
 }
 
